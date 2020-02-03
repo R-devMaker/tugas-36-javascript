@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belajar JavaScript - NIOMIC</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <p class="departement">- Departement of Finance -</p>
+    <input type="email" id="email" value="email"><br><br>
+    <input type="text" id="username" value="username"><br><br>
+    <input type="password" class="password" value="password"><br><br>
+
+    <button type="button" name="button" onclick="panggilScript()">Jalan</button>
+
+    <script>
+        function panggilScript(){
+            console.log(document.getElementById("email"));
+            console.log(document.getElementsByTagName("h2"));
+            console.log(document.getElementsByClassName("password"));
+            console.log(document.querySelector(".departement"));                        
+        }
+    </script>
+</body>
+</html>
